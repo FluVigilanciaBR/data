@@ -3,6 +3,9 @@ Aggregate data generated and consumed by FluVigilanciaBR surveillance tools
 
 ## sqlite Database tables
 
+- localidades: Table with localities code, abbreviation, and name. Columns:
+  - 'codigo', 'sigla', 'nome'
+  
 - serie_temporal: Table with weekly aggregated notification data, used to generate the notification curve on 
 the the time series panel. Columns:
   - 'código', 'epiyear', 'epiweek', 'dado', 'escala', 'registros', 'data de execução'
