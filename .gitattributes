@@ -1,2 +1,11 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
 *.db filter=lfs diff=lfs merge=lfs -text
+data/season_level.csv filter=lfs diff=lfs merge=lfs -text
+data/contingency_level.csv filter=lfs diff=lfs merge=lfs -text
+data/current_estimated_values.csv filter=lfs diff=lfs merge=lfs -text
+data/delay_table.csv filter=lfs diff=lfs merge=lfs -text
+data/historical_estimated_values.csv filter=lfs diff=lfs merge=lfs -text
+data/mem-report.csv filter=lfs diff=lfs merge=lfs -text
+data/mem-typical.csv filter=lfs diff=lfs merge=lfs -text
+data/weekly_alert.csv filter=lfs diff=lfs merge=lfs -text
+data/clean_data_epiweek-weekly-incidence_w_situation.csv filter=lfs diff=lfs merge=lfs -text
